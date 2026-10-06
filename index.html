@@ -81,6 +81,9 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .detail h4:first-child{margin-top:0}
 .detail p, .detail li{color:var(--muted);font-size:15px;margin:0 0 9px}
 .detail ul{margin:0 0 9px;padding-left:19px}
+figure.inline{margin:18px 0;border:1px solid var(--line);background:var(--surface)}
+figure.inline img{display:block}
+figure.inline figcaption{font-family:var(--mono);font-size:11px;color:var(--muted);padding:9px 11px;border-top:1px solid var(--line);line-height:1.5}
 .quote{border-left:2px solid var(--signal);padding:4px 0 4px 14px;margin:14px 0;font-size:15.5px;color:var(--ink)}
 .quote cite{display:block;font-family:var(--mono);font-size:11px;font-style:normal;color:var(--muted);margin-top:7px;text-transform:uppercase;letter-spacing:.06em}
 
@@ -205,6 +208,10 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-con
             <li><strong>On mobile the most-used elements sit below the fold.</strong> “Find a data product” had the highest click-through rate, yet needed two or three scrolls to reach. 40% left before arriving.</li>
             <li><strong>An outlier worth fixing.</strong> On a desktop window that is not full screen, the top category buttons stack vertically, lengthening the page and pushing everything else below the fold.</li>
           </ul>
+          <figure class="inline">
+            <img src="img/scroll.jpg" alt="Scroll heatmap of the Health Infobase homepage with the average fold and 75% markers drawn across it.">
+            <figcaption>Scroll map with the average fold and 75% markers. Drop-off concentrates exactly where the useful content begins.</figcaption>
+          </figure>
           <h4>How might we</h4>
           <p>How might we optimize the homepage so users reach the “find a data product” section without scrolling past the average fold, specifically on mobile?</p>
           <h4>Recommendation</h4>
@@ -241,6 +248,10 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-con
             <li>A Crazy 8s co-creation workshop with DMIA managers, including the CCO and senior management team, to validate findings and generate solutions.</li>
             <li>A prioritization exercise in Microsoft Forms, ranking the recommendations the managers themselves produced.</li>
           </ul>
+          <figure class="inline">
+            <img src="img/workshop.jpg" alt="Crazy 8s co-creation workshop board with three framed how-might-we problems and two rounds of sticky-note ideas.">
+            <figcaption>The Crazy 8s board. Three framed “how might we” problems, then two timed rounds to generate and refine ideas — participants produced the recommendations themselves, which is why they defended them afterwards.</figcaption>
+          </figure>
           <h4>What the research found</h4>
           <ul>
             <li>Only 28% of surveillance systems met the minimum performance standard for open data; 42% met transparency and 57% met interoperability.</li>
